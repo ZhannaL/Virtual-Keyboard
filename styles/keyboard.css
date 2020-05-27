@@ -1,0 +1,114 @@
+.virtualKeyboard {
+  padding: var(--space-l);
+  text-align: center;
+}
+
+.textarea {
+  background-color: var(--backgroundColor);
+  padding: var(--space-m);
+  border-radius: 5px;
+  border: 2px solid var(--borderColor);
+}
+
+.text {
+  font-family: var(--main-font);
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-m);
+  font-weight: bold;
+}
+
+.text > * {
+  margin: var(--space-xxs);
+}
+
+.keyboard {
+  margin: auto;
+  background-color: var(--gray);
+  width: 800px;
+  padding: var(--space-m);
+  border-radius: 5px;
+  border: 2px solid var(--borderColor);
+}
+
+.button {
+  flex-grow: 1;
+  margin: var(--space-xxs);
+  font-size: var(--font-size-m);
+  font-family: var(--secondary-font);
+  max-width: 43px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: var(--mainButton);
+  color: white;
+  cursor: pointer;
+}
+
+.fnButton {
+  font-size: var(--font-size-s);
+  background-color: var(--fnButton);
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--mainColor);
+}
+
+.button:active {
+  transition: all 0.3s;
+  background-color: var(--mainColorActive);
+  transform: translateY(2px);
+}
+
+.buttonActive {
+  transition: all 0.3s;
+  background-color: var(--mainColorActive);
+  transform: translateY(2px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.tab {
+  max-width: 75px;
+}
+
+.backspace {
+  max-width: 115px;
+}
+
+.delete {
+  max-width: 75px;
+}
+
+.capslock {
+  max-width: 100px;
+}
+
+.enter {
+  max-width: 125px;
+}
+
+.shift {
+  max-width: 103px;
+}
+
+.space {
+  max-width: 355px;
+}
+
+.ctrl {
+  max-width: 50px;
+}
+
+.alt {
+  max-width: 43px;
+}
+
+.arrow {
+  font-size: var(--font-size-l);
+  font-weight: bold;
+}
